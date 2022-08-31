@@ -1,63 +1,57 @@
+/* header */
 div.header {
     border-style: solid;
-    border-width: 2px;
-    margin: 60px 195px 9px 210px;
+    border-width: 1.5px;
+    margin: 30px 450px 9px 455px;
     text-align: center;
 }
 .header h1{
-  font-size: 85px;
-  margin: 25px 2px -10px 2px;
+  font-size: 45px;
+  margin: 13px 2px -8px 2px;
   font-family: 'Gelasio';
   font-weight: 400;
 }
 .header-nav{
-  margin: 10px 1px 30px 1px;
+  margin: 4px 1px 15px 1px;
 }
 .header-nav a{
   color:inherit;
   text-decoration: none;
   font-style: italic;
-  font-size: 22px;
-  padding: 18px;
+  font-size: 12px;
+  padding: 7px;
 }
 
 /* img */
 
 .img-container {
-  margin-top: 140px;
+  margin-top: 68px;
 }
 
 .img-container img{
   display: flex;
   justify-items: center;
-  margin-left: 130px;
   object-fit: cover;
-  padding: 2px;
-
-  width: 1155px;
-  height: 1155px;
-}
-
-.img-3 {
-  object-position: -200px 10px;
+  padding: 3px;
+  margin-left: 415px;
+  width: 590px;
+  height: 590px;
 }
 
 footer{
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
-  font-size: 15px;
-  margin-top: 50px;
-  margin-bottom: 35px;
+  font-size: 7.5px;
+  margin-top: 27px;
+  margin-bottom: 14px;
 }
 footer img{
   background: transparent;
-  width: 25px;
-  height: 25px;
-  padding: 15px;
+  width: 14px;
+  height: 14px;
+  padding: 7px;
   display: inline-block;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
-/* .fb-footer {
-  width: 1.5%;
-  height: 1%;
-} */
