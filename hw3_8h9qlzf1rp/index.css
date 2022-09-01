@@ -1,13 +1,18 @@
+.container {
+  position:absolute;
+  margin-right: 100px;
+  margin-left: 0px;
+}
 /* header */
 div.header {
     border-style: solid;
     border-width: 1.5px;
-    margin: 30px 450px 9px 455px;
+    margin: 25px 35px 9px 450px;
     text-align: center;
 }
 .header h1{
-  font-size: 45px;
-  margin: 13px 2px -8px 2px;
+  font-size: 44px;
+  margin: 10px 2px -8px 2px;
   font-family: 'Gelasio';
   font-weight: 400;
 }
@@ -25,7 +30,7 @@ div.header {
 /* img */
 
 .img-container {
-  margin-top: 68px;
+  margin-top: 65px;
 }
 
 .img-container img{
@@ -33,18 +38,20 @@ div.header {
   justify-items: center;
   object-fit: cover;
   padding: 3px;
-  margin-left: 415px;
-  width: 590px;
-  height: 590px;
+  margin-left: 413px;
+  width: 575px;
+  height: 575px;
 }
 
 footer{
+  /* position: absolute; */
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
   font-size: 7.5px;
   margin-top: 27px;
   margin-bottom: 14px;
+  margin-left: 405px;
 }
 footer img{
   background: transparent;
