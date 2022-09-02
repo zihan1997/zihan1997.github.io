@@ -1,15 +1,21 @@
 .container {
-  position:absolute;
-  margin: 0px 350px 0px 345px;
+  position:relative;
+  margin: 0px auto;
+  justify-content: center;
+  min-width: 735px;
+  max-width: 735px;
   /* background-color: bisque; */
 }
 
 /* header part */
 .header {
+    position: static;
     border-style: solid;
     border-width: 1.5px;
-    margin: 23px 108px 9px 110px;
+    margin: 31px 108px 9px 112px;
     text-align: center;
+    min-width: 515px;
+    max-width: 515px;
 }
 .header h1{
   font-size: 44px;
@@ -30,16 +36,18 @@
 
 /* img part */
 .img-container {
-  margin-top: 68px;
+  margin-top: 70px;
 }
 
 .img-container img{
   justify-items: center;
   object-fit: cover;
   padding: 1px;
-  margin-left: 70px;
-  width: 590px;
-  height: 590px;
+  display: inline-block;
+  vertical-align: middle;
+  min-width: 590px;
+  min-height: 590px;
+  margin-left: 73px;
 }
 
 .footer{
