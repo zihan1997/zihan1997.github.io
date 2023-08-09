@@ -1,0 +1,38 @@
+{
+    "results": [
+        {
+            "formatted_address": "1637 W 36th Pl, Los Angeles, CA 90018, USA",
+            "geometry": {
+                "bounds": {
+                    "northeast": {
+                        "lat": 34.0221975,
+                        "lng": -118.3071635
+                    },
+                    "southwest": {
+                        "lat": 34.0220185,
+                        "lng": -118.3072543
+                    }
+                },
+                "location": {
+                    "lat": 34.0221275,
+                    "lng": -118.3071983
+                },
+                "location_type": "ROOFTOP",
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.0233928802915,
+                        "lng": -118.3058599197085
+                    },
+                    "southwest": {
+                        "lat": 34.0206949197085,
+                        "lng": -118.3085578802915
+                    }
+                }
+            },
+            "place_id": "ChIJlfo-bw-4woARCIWemCSWITI",
+            "types": [
+                "premise"
+            ]
+        }
+    ]
+}

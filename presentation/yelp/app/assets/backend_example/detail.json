@@ -1,0 +1,105 @@
+{
+    "alias": "wurstküche-los-angeles-2",
+    "categories": [
+        {
+            "alias": "hotdog",
+            "title": "Hot Dogs"
+        },
+        {
+            "alias": "german",
+            "title": "German"
+        },
+        {
+            "alias": "gastropubs",
+            "title": "Gastropubs"
+        }
+    ],
+    "coordinates": {
+        "latitude": 34.0456047058105,
+        "longitude": -118.236061096191
+    },
+    "display_phone": "(213) 687-4444",
+    "hours": [
+        {
+            "hours_type": "REGULAR",
+            "is_open_now": false,
+            "open": [
+                {
+                    "day": 0,
+                    "end": "2300",
+                    "is_overnight": false,
+                    "start": "1130"
+                },
+                {
+                    "day": 1,
+                    "end": "2300",
+                    "is_overnight": false,
+                    "start": "1130"
+                },
+                {
+                    "day": 2,
+                    "end": "2300",
+                    "is_overnight": false,
+                    "start": "1130"
+                },
+                {
+                    "day": 3,
+                    "end": "2300",
+                    "is_overnight": false,
+                    "start": "1130"
+                },
+                {
+                    "day": 4,
+                    "end": "0100",
+                    "is_overnight": true,
+                    "start": "1130"
+                },
+                {
+                    "day": 5,
+                    "end": "0100",
+                    "is_overnight": true,
+                    "start": "1130"
+                },
+                {
+                    "day": 6,
+                    "end": "2300",
+                    "is_overnight": false,
+                    "start": "1130"
+                }
+            ]
+        }
+    ],
+    "id": "KQBGm5G8IDkE8LeNY45mbA",
+    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/gWIbvLDR1Y6yfTGTzXp_lw/o.jpg",
+    "is_claimed": true,
+    "is_closed": false,
+    "location": {
+        "address1": "800 E 3rd St",
+        "address2": "",
+        "address3": "",
+        "city": "Los Angeles",
+        "country": "US",
+        "cross_streets": "",
+        "display_address": [
+            "800 E 3rd St",
+            "Los Angeles, CA 90013"
+        ],
+        "state": "CA",
+        "zip_code": "90013"
+    },
+    "name": "Wurstküche",
+    "phone": "+12136874444",
+    "photos": [
+        "https://s3-media1.fl.yelpcdn.com/bphoto/gWIbvLDR1Y6yfTGTzXp_lw/o.jpg",
+        "https://s3-media4.fl.yelpcdn.com/bphoto/DBEAf8H5cCNgnc85c0dGFA/o.jpg",
+        "https://s3-media1.fl.yelpcdn.com/bphoto/0RlQlG4YjouG91jcm_aKkQ/o.jpg"
+    ],
+    "price": "$$",
+    "rating": 4,
+    "review_count": 8808,
+    "transactions": [
+        "delivery",
+        "pickup"
+    ],
+    "url": "https://www.yelp.com/biz/wurstk%C3%BCche-los-angeles-2?adjust_creative=0gsrprEXd9tZ9XMnY-GRvw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_lookup&utm_source=0gsrprEXd9tZ9XMnY-GRvw"
+}
