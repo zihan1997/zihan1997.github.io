@@ -48,6 +48,7 @@
           let appRunner = await engineInitializer.initializeEngine({
             hostElement: document.querySelector('.app'),
           });
+          await appRunner.run();
         }
       });
     });
