@@ -1,0 +1,51 @@
+body {
+
+    --black5: #404040;
+    --black4: #505050;
+    position: relative;
+    padding: 2rem;
+    display: grid;
+    place-items: center;
+    background-color: #89d1bf;
+}
+
+.content {
+    z-index: 1;
+    width: 390px;
+    height: 790px;
+
+    padding: 0 0.7rem;
+    border: 0.25rem solid var(--black5);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #eaeaea;
+    box-shadow: 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
+    transition: all 0.3s;
+}
+
+.phone_mic {
+    height: 0.25rem;
+    width: 4rem;
+    margin: 1rem auto;
+    border-radius: 999rem;
+    background-color: var(--black4);
+}
+
+iframe{
+    position: relative;
+    flex: 1 0 auto;
+    background-color: white;
+
+    width: 390px;
+    height: 685px;
+    border: 0;
+}
+
+.bottom{
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 2px solid var(--black4);
+    border-radius: 50%;
+    margin: 1rem auto;
+}
