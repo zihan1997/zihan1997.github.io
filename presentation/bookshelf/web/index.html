@@ -42,13 +42,14 @@
 <body>
   <div class="app">...loading</div>
   <script>
-    window.addEventListener("load", function (ev){
+    window.addEventListener("load", function (ev) {
       _flutter.loader.loadEntrypoint({
-        onEntrypointLoaded: async function(engineInitializer){
+        onEntrypointLoaded: async function(engineInitializer) {
           let appRunner = await engineInitializer.initializeEngine({
-            hostElement: document.querySelector('.app'),
+            // Pass a reference to "div#flutter_host" into the Flutter engine.
+            hostElement: document.querySelector(".app")
           });
-          await appRunner.run();
+          await appRunner.runApp();
         }
       });
     });
