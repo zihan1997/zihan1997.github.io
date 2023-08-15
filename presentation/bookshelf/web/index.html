@@ -29,6 +29,9 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
+  <!-- css -->
+  <link rel="stylesheet" href="bookshelf.css">
+
   <title>frontend</title>
   <link rel="manifest" href="manifest.json">
 
@@ -40,14 +43,18 @@
   <script src="flutter.js" defer></script>
 </head>
 <body>
-  <div class="app">...loading</div>
+  <div class="content">
+    <div class="phone_mic"></div>
+    <div id="app"></div>
+    <div class="bottom"></div>
+</div>
   <script>
     window.addEventListener("load", function (ev) {
       _flutter.loader.loadEntrypoint({
         onEntrypointLoaded: async function(engineInitializer) {
           let appRunner = await engineInitializer.initializeEngine({
             // Pass a reference to "div#flutter_host" into the Flutter engine.
-            hostElement: document.querySelector(".app")
+            hostElement: document.querySelector("#app")
           });
           await appRunner.runApp();
         }
