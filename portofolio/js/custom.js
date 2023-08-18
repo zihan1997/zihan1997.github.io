@@ -9,7 +9,7 @@ for (let i = 0; i < project.length; i++) {
 			url = "https://zihan1997.github.io/presentation/yelp/app/";
 		}else if (i == 1){
 			// direct to project page
-			url = "./bookshelf.html";
+			url = "https://zihan1997.github.io/presentation/bookshelf/web/";
 		}else{
 			// direct to project page
 			url = "http://www.google.com";
