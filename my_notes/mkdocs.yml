@@ -2,6 +2,12 @@ site_name: My Notetaking
 
 theme:
   name: material
+  favicon: favicon_io/favicon-16x16.png
+extra_css:
+  - css/extra.css
+extra_javascript:
+  - js/lib.js
+
 markdown_extensions:
   - attr_list
   - md_in_html
