@@ -1192,6 +1192,22 @@
         "top": false
     },
     {
+        "id": 454,
+        "question": "What is Java 17 new feature - sealed class？",
+        "answer": "<p>Java sealed class defines who can extend this class, so it adds more restrictions on class inheritance.</p><p>Key things:</p><ol><li>it uses \"sealed\" and \"permits\" to define who can extend this sealed class</li><li>the permitted children classes HAVE TO be in the same package as parent class</li><li>Children classes MUST be decorated with one of three keywords: sealed, non-sealed, final.. </li><li class=\"ql-indent-1\">the sealed child class can be further extended by permitted children</li><li class=\"ql-indent-1\">the non-sealed child class can be extended by another class</li><li class=\"ql-indent-1\">the final child class cannot be extended by any children class</li></ol><pre class=\"ql-syntax\" spellcheck=\"false\">public sealed class Vehicle permits Truck, Sedan, SUV {...}\n\n//same package\nsealed class Truck extends Vehicle permits PickupTruck {...}\nnon-sealed class Sedan extends Vehicle {...}\nfinal class SUV extends Vehicle {...}\n</pre>",
+        "keyword": "Java",
+        "frequency": 5,
+        "top": true
+    },
+    {
+        "id": 455,
+        "question": "What is difference between synchronized and ReentrantLock?",
+        "answer": "<p>Java has two types of locks, implicit and explicit. Synchronized is implicit lock which java controls everything, as a developer, we just add synchronized keyword.  ReentrantLock is explicit lock which we have more control on the locked object.</p><p>Things we can do with ReentrantLock: </p><ul><li>TryLock -- a thread can try lock object, if it returns true, it will acquire lock, otherwise, it will keep waiting</li><li>Fair Lock -- if there are many threads waiting, for Fair lock, the longest waiting thread will get the lock, FIFO order.   ReentrantLock rl = new ReentrantLock(true);</li><li>Lock Interrupt -- thread can try to interrupt the lock</li><li>access count -- It can count how many times a thread has gain access. Count can increase and decrease, when it decrease to 0 means the thread unlocked the object.</li></ul><pre class=\"ql-syntax\" spellcheck=\"false\">class Test\n{\n    private static int count = 0; \n  \n    private static ReentrantLock lock = new ReentrantLock();\n\n    public static void increment()\n    {\n        lock.lock();  //lock it\n        try \n        {\n            count++;\n        }\n      \n      finally\n         { \n            lock.unlock();  //need to release the lock\n         }\n    }\n</pre><p><br></p>",
+        "keyword": "Java",
+        "frequency": 4,
+        "top": true
+    },
+    {
         "id": 448,
         "question": "What is proxy design pattern",
         "answer": null,
